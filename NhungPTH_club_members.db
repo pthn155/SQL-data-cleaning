@@ -1,0 +1,2 @@
+SELECT trim(lower(full_name)) AS fullname, age, martial_status, email, phone, full_address, job_title, membership_date
+FROM club_member_info_cleaned;
